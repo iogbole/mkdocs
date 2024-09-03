@@ -1,0 +1,83 @@
+site_name: My Docs
+site_url: https://mydomain.org/mysite
+site_description: >-
+  Test docs
+
+# Repository
+repo_name: my_repo
+repo_url: https://github.com/iogbole/test
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.sections
+    - navigation.tracking
+    - navigation.path
+    - navigation.expand
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+  language: en
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: black
+      accent: lime
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+      primary: custom
+      accent: lime
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: true #to hide the Material footer
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/iogbole
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/iogbole
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/iogbole
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - tables
+
+copyright: |
+  &copy; 202X <a href="https://github.com/iogbole"  target="_blank" rel="noopener">Israel</a>

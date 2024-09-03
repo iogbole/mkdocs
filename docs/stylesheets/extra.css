@@ -1,0 +1,34 @@
+:root {
+    --md-primary-bg-color: #00dc82;
+    --md-primary-fg-color: #000000;
+
+    /* Anchor (link) text color overrides */
+    --md-typeset-a-color: #00dc82;
+    /* Default link color */
+    --md-typeset-a-color--dark: #00dc82;
+    /* Link color in dark mode */
+    --md-typeset-a-color--light: #00dc82;
+    /* Link color in light mode */
+
+    a {
+        color: #00dc82;
+    }
+
+    ;
+
+    .md-nav--secondary {
+        border-left: .05rem solid #00dc82;
+        ;
+    }
+
+    ;
+
+    .md-nav__item .md-nav__link--active {
+        color: #00dc82;
+    }
+
+    .md-nav__item .md-nav__link--active code {
+        color: #00dc82;
+    }
+
+}
