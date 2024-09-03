@@ -50,7 +50,6 @@ theme:
         name: Switch to system preference
       primary: custom
       accent: lime
-
 extra_css:
   - stylesheets/extra.css
 
