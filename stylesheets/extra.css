@@ -1,0 +1,30 @@
+:root {
+    --md-primary-bg-color: #00dc82;
+    --md-primary-fg-color: #020420;
+
+    /* Anchor (link) text color overrides */
+    --md-typeset-a-color: #00dc82;
+    /* Default link color */
+    --md-typeset-a-color--dark: #00dc82;
+    /* Link color in dark mode */
+    --md-typeset-a-color--light: #00dc82;
+    /* Link color in light mode */
+
+
+    [data-md-color-scheme="slate"][data-md-color-primary="custom"] {
+        --md-typeset-a-color: #00dc82;
+
+    }
+
+    ;
+
+    [data-md-color-primary="black"] {
+        --md-typeset-a-color: #00dc82;
+
+    }
+
+    ;
+
+
+
+}
